@@ -40,7 +40,7 @@ public class MortgageCalculator {
 			double principal=sc.nextDouble();
 			System.out.println("Enter the Annual interest Rate in rupee");
 			float annualInterstRate=sc.nextFloat();
-			System.out.println("Enter Doubt taken Date");
+			System.out.println("Enter Debt taken Date");
 			System.out.println("Enter Year : ");
 			int y1=sc.nextInt();
 			System.out.println("Enter month in number : ");
@@ -49,7 +49,7 @@ public class MortgageCalculator {
 			int d1=sc.nextInt();
 			LocalDate day1= LocalDate.of(y1,m1,d1);
 			
-			System.out.println("Doubt retain Date");
+			System.out.println("Debt retain Date");
 			System.out.println("Enter Year : ");
 			int y2=sc.nextInt();
 			System.out.println("Enter month in number : ");
@@ -84,7 +84,7 @@ public class MortgageCalculator {
 			double prin = principal;
 			System.out.println("Enter the Annual interest Rate in rupee");
 			float annualInterstRate = sc.nextFloat();
-			System.out.println("Enter Doubt taken Date");
+			System.out.println("Enter Debt taken Date");
 			System.out.println("Enter Year : ");
 			int y1 = sc.nextInt();
 			System.out.println("Enter month in number : ");
@@ -93,7 +93,7 @@ public class MortgageCalculator {
 			int d1 = sc.nextInt();
 			LocalDate day1 = LocalDate.of(y1, m1, d1);
 
-			System.out.println("Doubt retain Date");
+			System.out.println("Debt retain Date");
 			System.out.println("Enter Year : ");
 			int y2 = sc.nextInt();
 			System.out.println("Enter month in number : ");
